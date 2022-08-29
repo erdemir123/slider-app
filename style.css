@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  margin: 0 auto;
+  position: relative;
+  padding: 5px 0;
+  overflow: hidden;
+}
+header {
+  margin: 0 auto;
+  width: 95%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #333;
+}
+.text {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.text h1 {
+  font-size: 30px;
+}
+.text p {
+  font-size: 14pxpx;
+}
+.subhead {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.subhead h1 {
+  font-size: 20px;
+}
+.subhead span {
+  font-size: 40px;
+  font-weight: bolder;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 25px;
+  border-radius: 3px;
+}
+.subhead span:hover {
+  background: #333;
+  color: #ddd;
+}
+section {
+  width: 98%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+  left: 0;
+  transition: all 1s cubic-bezier(.2,1,.75,.27);
+
+}
+
+
+section .product {
+  width: 100%;
+  height: 90%;
+  background: rgb(245, 245, 245);
+  margin: 0 20px 0 0;
+  position: relative;
+  left: 1850px;
+  top: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+section .product .image img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+.details span {
+  color: #333;
+  line-height: 10px;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.button {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.button a {
+  min-width: 100px;
+  height: 40px;
+  color: #dfdfdf;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #efefef;
+  box-shadow: 2px 2px 4px #c8d0e7, -1px -1px 3px #fff;
+  color: #585858;
+  text-align: center;
+  line-height: 40px;
+  bottom: 16px;
+}
+.button a:active {
+  box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
+}
+.pars{
+  display: block;
+  text-align: end;
+  margin: 0 40px;
+  font-size: .5rem;
+  font-weight: 900;
+}
